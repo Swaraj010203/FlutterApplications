@@ -18,12 +18,11 @@ class MyApp extends StatelessWidget{
             width: 300,
             color: Colors.red,
             decoration:const BoxDecoration( 
-              borderRadius: BorderRadius.only({topLeft:})),
+              borderRadius: BorderRadius.only()),
             ),
         ),
       )
-      )
-    );
+      );
     
   }
 }
